@@ -1,3 +1,14 @@
+* {
+  box-sizing: border-box;
+  background-color: 	#a3bbb6
+}
+
+#cards{
+  display: flex;
+  align-items: center;
+  margin: 10px;;
+}
+
 .App {
   text-align: center;
 }
@@ -5,22 +16,16 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  max-width: 50px;
+  max-height: 50px;
+  margin: 15px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 28px;
   color: white;
 }
 
@@ -28,11 +33,42 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  color: #1b2e2e;
+  text-align: center;
+  display: flex;
+}
+
+#card {
+  width: 175px;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-left: 20px;
+  color: #1b2e2e;
+}
+#cardImage {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.cardStats {
+  display: flex;
+}
+
+button {
+  background-color: #1b2e2e;
+  border-radius: 5px;
+  color: white;
+
+}
+
+#content {
+  font-size: 20px;
+}
+
+#footer{
+  min-height:50px
 }
