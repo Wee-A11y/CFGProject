@@ -15,7 +15,7 @@ function Card(props){
             </div>
       </div> 
       <div className="card-button">
-        <button>
+        <button className="button" onClick={props.handleClick}>
             <a>
               Click me
             </a>
