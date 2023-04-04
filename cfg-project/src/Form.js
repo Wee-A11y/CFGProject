@@ -16,9 +16,9 @@ export default function Form(){
                     <input class="form-detail" type="email" id="email" name="email" placeholder="Enter your email" required/>
                     <label for="activity">Activity:</label>
                     <select class="form-detail" id="cars" name="cars">
-                        <option value="volvo">Yoga</option>
-                        <option value="saab">Indoor Cycling</option>
-                        <option value="fiat">Do Nothing Class</option>
+                        <option value="Yoga">Yoga</option>
+                        <option value="Indoor Cycling">Indoor Cycling</option>
+                        <option value="Do Nothing Class">Do Nothing Class</option>
                     </select>
                     <label for="date">Date:</label>
                     <input class="form-detail" type="date" id="date" name="date" placeholder="Enter the date" required/>
