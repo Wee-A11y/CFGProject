@@ -28,15 +28,15 @@ function App() {
       <div id="card" className="cards">
         <div id="card-wrapper">
                 <Card
-                title = 'Yoga Class'
-                imageUrl = 'https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80'
-                body = 'Card body, lorem ipsum, bla bla bla'
+                title = 'Unicorn riding'
+                imageUrl = 'https://i.pinimg.com/originals/34/4d/97/344d974eb7aa7f5396cf8150e4a91c0e.jpg'
+                body = 'Incredible opportunity to get on The Majestic Creature!'
                 handleClick={handleClick}
                 />
                 <Card
-                title = 'Indoor cycling'
-                imageUrl = 'https://media.istockphoto.com/id/918931148/photo/fit-people-working-out-at-exercising-class-in-the-gym.jpg?s=612x612&w=0&k=20&c=-2fPHUiGAjZJXeSqZTw8ipfeUOkI_w8H0wEGcbD7oPc='
-                body = 'blablabla'
+                title = 'Haggis hunting'
+                imageUrl = 'https://ih1.redbubble.net/image.1440444641.8733/flat,750x,075,f-pad,750x1000,f8f8f8.jpg'
+                body = 'Unique adventure seeking wild Haggis! Neeps and tattis provided.'
                 handleClick={handleClick}
                 />
               <Card
