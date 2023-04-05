@@ -16,14 +16,15 @@ export default function Form(){
                     <input class="form-detail" type="email" id="email" name="email" placeholder="Enter your email" required/>
                     <label for="activity">Activity:</label>
                     <select class="form-detail" id="cars" name="cars">
-                        <option value="Yoga">Yoga</option>
-                        <option value="Indoor Cycling">Indoor Cycling</option>
+                        <option value="Unicorn Riding">Unicorn Riding</option>
+                        <option value="Haggis Hunting">Haggis Hunting</option>
                         <option value="Do Nothing Class">Do Nothing Class</option>
                     </select>
                     <label for="date">Date:</label>
                     <input class="form-detail" type="date" id="date" name="date" placeholder="Enter the date" required/>
                     <br/>
                     <input id="form-button" type="submit" value="Send"/>
+                    
                 </form>
             </body>  
         </div>
