@@ -15,7 +15,7 @@ export default function Form(){
                     <label for="email">Email:</label>
                     <input class="form-detail" type="email" id="email" name="email" placeholder="Enter your email" required/>
                     <label for="activity">Activity:</label>
-                    <select class="form-detail" id="cars" name="cars">
+                    <select class="form-detail" id="class" name="class">
                         <option value="Unicorn Riding">Unicorn Riding</option>
                         <option value="Haggis Hunting">Haggis Hunting</option>
                         <option value="Do Nothing Class">Do Nothing Class</option>
